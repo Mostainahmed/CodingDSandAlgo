@@ -16,6 +16,12 @@ function findCommonItem(array1, array2){
 const array1 = ["a","x","y","z"]
 const array2 = ["p","q","a"]
 findCommonItem(array1, array2);
+// findCommonItemsWithBuiltInJsMethod(array1, array2);
+
+// this solution is only possible with javascript
+function findCommonItemsWithBuiltInJsMethod(array1, array2) {
+    console.log(array1.some(item => array2.includes(item)));
+}
 
 
 
